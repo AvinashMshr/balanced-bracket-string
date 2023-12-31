@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Parsing parsing = new Parsing();
-		String str ="[{}]()(){";
+		String str ="[{}]()()){";
 		if(parsing.isBalanced(str)) {
 			System.out.println("It is balanced");
 		}else {
